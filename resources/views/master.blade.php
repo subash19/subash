@@ -1,0 +1,7 @@
+        @include('header')
+        @include('nav')
+        @include('footer')
+        @yield('header')
+        @yield('nav')
+        @yield('content')
+        @yield('footer')
